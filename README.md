@@ -1,7 +1,7 @@
 # Media-Files-to-printable
 Convert your images or pictures into printable character sho that you  can print your pictures in terminal just by using defaulf print function
 
-!["r/reddit image"](https://raw.githubusercontent.com/leyuskckiran1510/Reddit/master/ReadmeImage/redditcanvas.png "r/place")
+
 
 ##How to use
 1) Download or clone the repo to your machine
@@ -41,4 +41,8 @@ Easy! just change the input.jpg from above codes to your files path or name
 function to prevent any errors
 
 # sample of executed code in pycharm you can use any other interpreater
-!["r/reddit image"](https://www.youtube.com/watch?v=_NwIzChau7g "r/place")
+[![Visit youtube for more](https://i9.ytimg.com/vi/fhQ3AGA-e-E/mq2.jpg?sqp=CJiYsJIG&rs=AOn4CLAIBompMgTg87k8ywQ1-8SPyD5_Og)](https://www.youtube.com/watch?v=fhQ3AGA-e-E "asciirender")
+
+
+
+
