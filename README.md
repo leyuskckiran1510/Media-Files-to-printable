@@ -37,12 +37,11 @@ both the above code will execute
 
 # Want's to change the image to any other images
 Easy! just change the input.jpg from above codes to your files path or name
-# Note the image name must be .jpeg/.png/ .wepb/ .bmp and video must be .mp4 yes it supports other video formats also but I have reomved that 
-function to prevent any errors
+# Note the image name must be .jpeg/.png/ .wepb/ .bmp and video must be .mp4 yes it supports other video formats also but I have removed that function to prevent any errors
 
-# sample of executed code in pycharm you can use any other interpreater
+# sample of executed code in youtube enjoy.
 [![Visit youtube for more](https://i9.ytimg.com/vi/fhQ3AGA-e-E/mq2.jpg?sqp=CJiYsJIG&rs=AOn4CLAIBompMgTg87k8ywQ1-8SPyD5_Og)](https://www.youtube.com/watch?v=fhQ3AGA-e-E "asciirender")
 
 
 
-
+email me if you have any prolems contribution are accpeted
