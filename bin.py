@@ -17,8 +17,9 @@ class Run:
         for y in range(0, img.size[1]):
             for x in range(0, img.size[0]):
                 a = img.getpixel((x, y))
-                c = int(int(a) /10.7)
-                arry += f'\x1b[48;5;{232+ c}m \x1b[0m'
+                a=int(a)
+                c = int(a /10.7)
+                arry += f'\x1b[48;2;{a};{a};{a}m`\x1b[0m' #f'\x1b[48;5;{232+ c}m \x1b[0m'
             arry += "\n"
         return arry
 
