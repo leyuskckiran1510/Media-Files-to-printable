@@ -52,8 +52,14 @@ def video(file,fps,size,bw,out):
         for i in range(1,len(os.listdir(dir))+1):
             a = bin.Run(f"{dir}/img{i:03d}.png",int(w),int(h))
             if bw:
+                #Ansi code for clear screen and move cursor to the top of the screen
+                print(f"\x1b[2J\x1b[1;1H",end='\r')
+                # printing actual image 
                 print(a.BW(),end='\r')
             else:
+                #Ansi code for clear screen and move cursor to the top of the screen
+                print(f"\x1b[2J\x1b[1;1H",end='\r')
+                #printing actual image
                 print(a.RGB(),end="\r")
 
     else:
@@ -68,8 +74,7 @@ def video(file,fps,size,bw,out):
         print("Now you can print the media files in the folder 'seq'")
         print("Conversion completed successfully!\n"*2)
         print("Or you can print the media files in the folder 'seq-{file.split('.')[0]}'")
-        print("Or you can print the media files in the folder 'seq-{file.split('.')[0]}' and then delete it")
-        print("Or you can print the media files in the folder 'seq' and then delete it")
+
     #os.rmdir(f"{dir}")
     shutil.rmtree(f"{dir}")
 
